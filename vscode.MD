@@ -1,0 +1,2 @@
+# Useful Plugins
+sqlite
