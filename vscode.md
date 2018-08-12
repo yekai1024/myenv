@@ -1,10 +1,12 @@
 # Useful Plugins
+```
 sqlite
 project manager
 git hisotry
 sort lines
 trailing spaces
 vscode-icons
+```
 
 # User Settings
 ```json
