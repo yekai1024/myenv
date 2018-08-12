@@ -1,0 +1,30 @@
+[user]
+        name = Kai Ye
+        email = kye@isilon.com
+[gui]
+        recentrepo = C:/Workspace/healthcheck
+        recentrepo = K:/kspace/healthcheck
+[core]
+        autocrlf = input
+        excludesfile = C:\\Users\\yek\\.gitignore
+[diff]
+        tool = p4merge
+[difftool "p4merge"]
+        path = C:\\Program Files\\Perforce\\p4merge.exe
+[merge]
+        tool = p4merge
+[mergetool "p4merge"]
+        path = C:\\Program Files\\Perforce\\p4merge.exe
+[difftool "sourcetree"]
+        cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+        cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+        trustExitCode = true
+                                                                                                                                                                                                                                                                           ✔
+
+[.gitignore file]
+# Generated Files
+*.o
+*.pyc
+*.swp
+.vscode/
