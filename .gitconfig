@@ -1,9 +1,6 @@
 [user]
         name = Kai Ye
         email = kye@isilon.com
-[gui]
-        recentrepo = C:/Workspace/healthcheck
-        recentrepo = K:/kspace/healthcheck
 [core]
         autocrlf = input
         excludesfile = C:\\Users\\yek\\.gitignore
