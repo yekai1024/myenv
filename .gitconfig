@@ -17,7 +17,11 @@
 [mergetool "sourcetree"]
         cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
         trustExitCode = true
-                                                                                                                                                                                                                                                                           ✔
+        
+[difftool "meld"]
+	path = "C:\\Program Files (x86)\\Meld\\Meld.exe"
+[mergetool "meld"]
+	path = "C:\\Program Files (x86)\\Meld\\Meld.exe"                                                                                                                                                                                                                                                                      ✔
 
 [.gitignore file]
 # Generated Files
